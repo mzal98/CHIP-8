@@ -7,7 +7,7 @@ int main() {
 
     printf("Hello World from C!\n");
 
-    //initialize();
+    chip8Initialize();
 
     return 0;
 }

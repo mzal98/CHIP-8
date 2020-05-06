@@ -2,9 +2,11 @@
 #ifndef CHIP8_H
 #define CHIP8_H
 
-void memoryinitializeMemory();
+void initializeMemory();
 void addCharset();
 void initializeStack();
 void initializeCPU();
+void chip8Initialize();
+
 
 #endif // !CHIP8_H
