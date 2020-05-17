@@ -5,9 +5,13 @@
 
 int main() {
 
-    printf("Hello World from C!\n");
-
     chip8Initialize();
+    
+    for (;;)
+    {
+        chip8EmulateCycle();
+
+    }
 
     return 0;
 }
