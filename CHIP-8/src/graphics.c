@@ -3,9 +3,6 @@
 #include <stdio.h>
 #include <SDL.h>
 
-#define PIXEL_WHITE 0xFFFFU
-#define PIXEL_BLACK 0x000FU
-
 SDL_Window* window;
 SDL_Renderer* renderer;
 
